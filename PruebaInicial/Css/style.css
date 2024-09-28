@@ -1,0 +1,105 @@
+.header{
+    border: 2px solid black;
+    border-radius: 0px 0px 5px 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+}
+
+.logo{
+    padding: 1%;
+    width: 5%;
+}
+
+.nav{
+    
+    border: 2px solid rgb(68, 68, 68);
+    background-color: rgb(73, 73, 73);
+    margin-left: 30%;
+    padding-right: 2.5%;
+    border-radius: 25px;
+}
+
+.indnav:visited, .formnav:visited{
+    color: rgb(248, 255, 157);
+}
+
+
+    
+.indnav, .formnav{
+    color: orange;
+    margin-right: 15px;
+}
+
+.gestion{
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.usuario, .carro{
+    scale: 0.6;
+}
+
+
+body{
+    background-color:rgb(60, 60, 60);
+    margin: 0;
+}
+
+.ventas{
+
+    margin-top: 3%;
+    margin-left: 2%;
+    color: rgb(232, 232, 232);
+}
+
+.gow, .wukong, .tenkaichi{
+    padding: 1%;
+}
+
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gowi, .wukongi, .tenkaichii{
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gowi:hover, .wukongi:hover, .tenkaichii:hover{
+    transform: scale(1.05);
+}
+
+
+.footer{
+
+    border: 1px black solid;
+    background-color: rgb(28, 28, 28);
+    
+}
+
+.texto{
+    margin-left: 2%;
+    color: rgb(232, 232, 232);
+}
+
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    align-items: center;
+}
+
+.facebook, .twitter, .telegram{
+    margin-right: 1%;
+}
+
+.formulario{
+
+    text-align: center;
+}
+
